@@ -255,7 +255,7 @@ def finduser(info):
 browser = webdriver.Chrome()
 browser.get("https://www.armed.am/am")
 id = input('enter verification code:\n')
-login('HovhannisyanAnul@mail.ru', 'hanul123456', id)
+login('*******@mail.ru', '********', id)
 i = 1
 with open('Patients.txt') as f:
     patients = f.read().split('\n')
